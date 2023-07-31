@@ -11,13 +11,25 @@
         .container {
             margin: 50px auto;
             border: 2px solid #dbdbdb;
+            border-radius: 4px;
             padding: 20px;
             width: 400px;
         }
 
+        .main-img, .input-container {
+            margin-bottom: 10px;
+        }
+
+        .main-img {
+            display: flex;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+
         .main-img img {
             /* %는 부모요소의 크기 기준으로 함 */
-            width: 100%; 
+            width: 100%;
         }
 
         .input-container input {
