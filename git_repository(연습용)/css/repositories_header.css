@@ -1,0 +1,17 @@
+.app-header {
+    border-bottom: 1px solid #dbdbdb;
+    height: 104px;
+    background-color: rgb(246, 248, 250);
+}
+
+.app-header-up {
+    display: flex;
+    width: 100%;
+    height: 32px;
+    padding: 16px 16px 8px 16px;
+}
+
+.app-header-contants i {
+    width: 32px;
+    height: 32px;
+}
